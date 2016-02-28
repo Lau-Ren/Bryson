@@ -1,0 +1,36 @@
+html,
+body {
+  border: 0;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+body a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+
+header .logo {
+    display: inline-block;
+     /*left: 50%;*/
+
+    width: 120px;
+    height: 120px;
+    background: url(../img/cirLogo.png) no-repeat center center;
+    background-size: contain;
+}
+
+#slides {
+
+position: absolute;
+top: 0px;
+
+}
