@@ -48,3 +48,18 @@ header .dropdown {
 	text-align: center;
 }
 
+
+.container .project-title img {
+   width: 100%;
+    
+    
+}
+.container .project-title  {
+	padding-top: 200px;
+   display: block;
+  	margin-left: auto;
+	margin-right: auto;
+
+    
+    
+}
