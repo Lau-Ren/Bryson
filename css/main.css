@@ -15,8 +15,9 @@ body {
 
 #slides {
 
-position: absolute;
-top: 0px;
+position: absolute !important;
+top: 0px !important;
+z-index: -1;
 
 }
 body a {
@@ -25,7 +26,10 @@ body a {
   font-style: italic;
 }
 
-
+header {
+height: 0px
+	z-index: 10;
+}
 header .logo {
    display: block;
 	margin-left: auto;
